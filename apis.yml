@@ -1,7 +1,28 @@
 aid: blitzy
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/blitzy.png
 name: Blitzy
-description: 'Blitzy is a company surfaced as a portfolio company of northzone and added to the API Evangelist
-  network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Blitzy is an autonomous software development platform for enterprises with
+  large legacy codebases. It reverse-engineers existing code into a knowledge
+  graph, then orchestrates thousands of AI agents to modernize software and
+  build new applications at the scale of 1 million to over 100 million lines of
+  code, autonomously completing roughly 80% of a project before human engineers
+  review and approve the result. Rather than training its own foundation models,
+  Blitzy composes leading third-party models (Gemini, GPT, Claude). Founded by
+  Brian Elliott (CEO) and Sid Pardeshi (CTO), the company is headquartered in
+  Cambridge, Massachusetts with an office in Pune, India, and is backed by
+  Northzone.
 url: https://raw.githubusercontent.com/api-evangelist/blitzy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +32,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-- Ai
+- AI
+- Artificial Intelligence
+- Software Development
+- Code Generation
+- Autonomous Agents
+- Legacy Modernization
+- Developer Tools
+- Enterprise
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +52,22 @@ maintainers:
 common:
 - type: Website
   url: https://blitzy.com
+- type: SecurityTxt
+  url: well-known/blitzy-security.txt
+- type: WellKnown
+  url: well-known/blitzy-well-known.yml
+- type: DomainSecurity
+  url: security/blitzy-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/blitzy-vulnerability-disclosure.yml
+- type: Security
+  url: https://blitzy.com/.well-known/security.txt
+- type: TrustCenter
+  url: security/blitzy-trust-center.yml
+- type: Compliance
+  url: https://blitzy.com/trust
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

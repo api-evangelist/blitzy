@@ -1,0 +1,22 @@
+generated: '2026-07-18'
+method: searched
+source: https://blitzy.com/.well-known/
+host: https://blitzy.com
+notes: >-
+  blitzy.com sits behind a Cloudflare interactive challenge; only
+  /.well-known/security.txt is served ahead of the challenge (200). The other
+  discovery documents return the Cloudflare 403 challenge page, which is a bot
+  block rather than a genuine 404 — recorded as 403 (unavailable to unattended
+  probes).
+documents:
+- path: /.well-known/security.txt
+  status: 200
+  file: blitzy-security.txt
+- path: /.well-known/openid-configuration
+  status: 403
+- path: /.well-known/oauth-authorization-server
+  status: 403
+- path: /.well-known/api-catalog
+  status: 403
+- path: /.well-known/ai-plugin.json
+  status: 403
