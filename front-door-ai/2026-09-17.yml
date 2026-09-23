@@ -1,0 +1,33 @@
+# Front Door AI Index — blitzy — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: blitzy
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: blitzy.com
+  final_host: blitzy.com
+  ownership: own
+  owner: blitzy
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 33
+  host_score: 33
+  density: 14.54
+  words: 2270
+  tiers:
+    agentic: 17
+    core: 16
+    model: 0
+  ambiguous: 17
+  top_terms:
+    agent: 17
+    AI: 12
+    prompts: 7
+    copilot: 4
+    foundation model: 4
+    AI agent: 3
+    agentic: 1
+    chatbot: 1
+    inference: 1
