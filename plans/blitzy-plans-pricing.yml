@@ -1,0 +1,61 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://blitzy.com/
+sources:
+- https://blitzy.com/
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T112025
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed+licensed
+  method: page
+  read: '2026-10-07'
+  evidence: Deployment Customer VPC, on-premises and black box
+  managed_tier: Structured Pilot
+published: true
+note: Homepage shows annual investment tiers; Sandbox listed with $0 and $25K annual investment text.
+  Higher tiers say Contact sales alongside listed amounts.
+plan_count: 5
+currency: USD
+plans:
+- name: Sandbox
+  price_text: $0
+  price: 0
+  currency: USD
+  period: year
+  unit: annual investment
+  included_quota: 1M Lines of codebase context; 100K Lines to generate
+- name: Structured Pilot
+  price_text: $250K
+  price: 250000
+  currency: USD
+  period: year
+  unit: annual investment
+  included_quota: 15M Lines of codebase context; 500K Lines to generate
+- name: Core
+  price_text: $500K
+  price: 500000
+  currency: USD
+  period: year
+  unit: annual investment
+  included_quota: Deployment Blitzy Cloud VPC
+- name: Scale
+  price_text: $1M
+  price: 1
+  currency: USD
+  period: year
+  unit: typical annual investment
+  included_quota: Deployment Blitzy Cloud VPC or Single Tenant
+- name: Transformation
+  price_text: $10M
+  price: 10
+  currency: USD
+  period: year
+  unit: typical annual investment
+  included_quota: Deployment Customer VPC, on-premises and black box
+rate_limit_statements:
+- At this time, jobs are not cancelable. Once you submit, it consumes the assigned quota.
