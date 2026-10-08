@@ -59,3 +59,51 @@ plans:
   included_quota: Deployment Customer VPC, on-premises and black box
 rate_limit_statements:
 - At this time, jobs are not cancelable. Once you submit, it consumes the assigned quota.
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - free
+  - subscription
+  units: []
+  plans:
+  - name: Sandbox
+    access: other
+    model: free
+    model_how: derived
+    units:
+    - other
+    periods:
+    - year
+  - name: Structured Pilot
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - other
+    periods:
+    - year
+  - name: Core
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - other
+    periods:
+    - year
+  - name: Scale
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - other
+    periods:
+    - year
+  - name: Transformation
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - other
+    periods:
+    - year
