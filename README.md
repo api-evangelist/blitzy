@@ -64,6 +64,91 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Blitzy is a company surfaced as a portfolio company of northzone and added to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.
+Blitzy is an autonomous software development platform for enterprises with large legacy codebases. It reverse-engineers existing code into a knowledge graph, then orchestrates thousands of AI agents to modernize software and build new applications at the scale of 1 million to over 100 million lines of code, autonomously completing roughly 80% of a project before human engineers review and approve the result. Rather than training its own foundation models, Blitzy composes leading third-party models (Gemini, GPT, Claude). Founded by Brian Elliott (CEO) and Sid Pardeshi (CTO), the company is headquartered in Cambridge, Massachusetts with an office in Pune, India, and is backed by Northzone.
 
-Backed by: northzone — https://blitzy.com
+**Areas:** Company · Artificial Intelligence · Software Development · Code Generation · Autonomous Agents · Legacy Modernization · Developer Tools · Enterprise
+
+## Blitzy on APIs.io
+
+Everything profiled for Blitzy is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/blitzy/](https://apis.io/providers/blitzy/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Blitzy Domain Security](https://apis.io/security/blitzy/blitzy-domain-security/)
+- [Blitzy Trust Center](https://apis.io/security/blitzy/blitzy-trust-center/)
+- [Blitzy Vulnerability Disclosure](https://apis.io/security/blitzy/blitzy-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Blitzy Plans Pricing](https://apis.io/plans/blitzy/blitzy-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://blitzy.com)
+- [Pricing](https://blitzy.com/)
+- [Blog](https://blitzy.com/blog)
+- [Security](https://blitzy.com/.well-known/security.txt)
+- [Compliance](https://blitzy.com/trust)
+
+## API Evangelist rating
+
+**Kin Score 15.4** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 50.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/blitzy/](https://apis.io/providers/blitzy/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Blitzy: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/blitzy/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
